@@ -132,7 +132,7 @@ class MediaDownloader:
                 'format': 'best',
                 'outtmpl': 'downloaded_video.%(ext)s',
                 'quiet': True,
-                'cookiefile': 'cookies.txt',  # Add this line to use cookies
+                'cookiefile': 'cookies.txt',
             }
 
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
