@@ -43,6 +43,7 @@ def download_media(url):
             'quiet': True,
             'noplaylist': True,
             'retries': 5,
+            'cookiefile': 'cookies.txt',
             'force_overwrites': True,
             'ignoreerrors': True,
             'postprocessors': [{
