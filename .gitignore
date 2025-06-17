@@ -1,0 +1,10 @@
+bot_users.db
+bot_errors.log
+__pycache__/
+*.py[cod]
+*.class
+.env
+.venv
+env/
+venv/
+ENV/
